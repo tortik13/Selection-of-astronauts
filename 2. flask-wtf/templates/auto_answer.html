@@ -2,7 +2,12 @@
 
 {% block content %}
    <div class="p-3 mb-2 bg-info text-white">
-      <h2> Форма отправлена </h2>
+   <h4>Фамилия: {{data["surname"]}}</h4>
+   <h4>Имя: {{data["name"]}}</h4>
+   <h4>Образование: {{data["education"]}}</h4>
+   <h4>Профессия: {{data["profession"]}}</h4>
+   <h4>Пол: {{data["sex"]}}</h4>
+   <h4>Мотивация: {{data["motivation"]}}</h4>
+   <h4>Готовность: {{data["ready"]}}</h4>
    </div>
-   {{data}}
 {% endblock %}
